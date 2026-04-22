@@ -1,0 +1,95 @@
+{
+  "classes": ["asfalt_lekesi", "gri_leke", "pas", "saglikli", "yaprak_kararmasi"],
+  "diseases": [
+    {
+      "id": "asfalt_lekesi",
+      "icon_name": "water-outline",
+      "example_image": "disease_examples/asfalt_lekesi.jpg",
+      "name": "Asfalt Lekesi (Charcoal Rot)",
+      "description": "Mısır bitkisinde toprak kaynaklı Macrophomina phaseolina mantarının neden olduğu bir hastalıktır. Yapraklarda kahverengi-siyah lekeler ve doku ölümü gözlemlenir. Kuraklık stresi hastalığı tetikler.",
+      "cultural_advice": [
+        "Hastalıklı bitki artıklarını tarladan uzaklaştırın ve imha edin.",
+        "Ürün rotasyonu uygulayın; mısırı aynı tarlada üst üste ekmekten kaçının.",
+        "Dengeli sulama ile bitkinin kuraklık stresini önleyin.",
+        "Dayanıklı çeşitler tercih edin."
+      ],
+      "chemical_advice": [
+        "Thiram veya Captan içerikli tohum ilaçlaması yapın.",
+        "Toprak dezenfeksiyonu için Metham Sodium kullanılabilir.",
+        "Fungisit uygulaması erken dönemde daha etkilidir."
+      ]
+    },
+    {
+      "id": "gri_leke",
+      "icon_name": "cloud-outline",
+      "example_image": "disease_examples/gri_leke.jpg",
+      "name": "Gri Yaprak Lekesi (Gray Leaf Spot)",
+      "description": "Cercospora zeae-maydis mantarının neden olduğu bu hastalık, yapraklarda dikdörtgen şekilli, gri-kahverengi lekeler oluşturur. Yüksek nem ve ılıman sıcaklıklarda hızla yayılır. Ağır enfeksiyonlarda verim kaybı %50'yi aşabilir.",
+      "cultural_advice": [
+        "Hasattan sonra bitki artıklarını toprağa gömin veya yakın.",
+        "Hava sirkülasyonunu artırmak için sıra aralıklarını geniş tutun.",
+        "Dayanıklı mısır çeşitlerini tercih edin.",
+        "Ürün rotasyonu uygulayın (2-3 yıl)."
+      ],
+      "chemical_advice": [
+        "Strobilurin grubu fungisitler (Azoxystrobin, Pyraclostrobin) etkilidir.",
+        "Triazol grubu fungisitler (Propiconazole, Tebuconazole) kullanılabilir.",
+        "İlk leke görüldüğünde uygulamaya başlayın, 14 günde bir tekrarlayın."
+      ]
+    },
+    {
+      "id": "pas",
+      "icon_name": "alert-circle-outline",
+      "example_image": "disease_examples/pas.jpg",
+      "name": "Pas Hastalığı (Common Rust)",
+      "description": "Puccinia sorghi mantarının neden olduğu bu hastalık, yaprakların her iki yüzeyinde de turuncu-kahverengi toz görünümünde püstüller oluşturur. Serin ve nemli havalarda hızla yayılır.",
+      "cultural_advice": [
+        "Erken ekim yaparak pas döngüsünden kaçının.",
+        "Dayanıklı çeşitler tercih edin (en etkili yöntem).",
+        "Hastalıklı yaprakları hemen budayın.",
+        "Tarlalar arası makine ve alet temizliğine dikkat edin."
+      ],
+      "chemical_advice": [
+        "Mancozeb içerikli fungisitler erken dönemde etkilidir.",
+        "Triazol grubu fungisitler (Propiconazole) pas kontrolünde başarılıdır.",
+        "Belirti ilk görüldüğünde ilaçlamaya başlayın, 7-10 günde bir tekrarlayın."
+      ]
+    },
+    {
+      "id": "saglikli",
+      "icon_name": "checkmark-circle-outline",
+      "example_image": "disease_examples/saglikli.jpg",
+      "name": "Sağlıklı Bitki",
+      "description": "Mısır yaprağında herhangi bir hastalık belirtisi tespit edilmedi. Bitkiyi korumak için önleyici tedbirlere devam edin.",
+      "cultural_advice": [
+        "Düzenli sulama ve gübreleme programını sürdürün.",
+        "Yabancı otlarla mücadeleyi aksatmayın.",
+        "Bitkiyi periyodik olarak kontrol ederek erken belirtileri yakalayın.",
+        "Dengeli azot gübrelemesi hastalıklara karşı direnci artırır."
+      ],
+      "chemical_advice": [
+        "Koruyucu fungisit uygulaması şu an gerekli değil.",
+        "Hastalık görülmesi halinde derhal müdahale için hazırlıklı olun.",
+        "Böcek ilaçlamasını yalnızca gerektiğinde yapın."
+      ]
+    },
+    {
+      "id": "yaprak_kararmasi",
+      "icon_name": "flame-outline",
+      "example_image": "disease_examples/yaprak_kararmasi.jpg",
+      "name": "Kuzey Yaprak Yanıklığı (Northern Leaf Blight)",
+      "description": "Exserohilum turcicum mantarının neden olduğu bu hastalık, yapraklarda uzun, eliptik şekilli, soluk yeşil-gri renkli lekeler oluşturur. Lekeler zamanla kahverengiye döner ve 2-15 cm uzunluğa ulaşabilir.",
+      "cultural_advice": [
+        "Hasattan sonra bitki artıklarını toprağa gömün.",
+        "Dayanıklı veya toleranslı mısır çeşitleri ekin.",
+        "Ürün rotasyonu uygulayın.",
+        "Yüksek bitki sıklığından kaçının, hava sirkülasyonunu artırın."
+      ],
+      "chemical_advice": [
+        "Maneb, Zineb veya Mancozeb içerikli fungisitler kullanılabilir.",
+        "Propiconazole ve Tebuconazole etkili triazol fungisitleridir.",
+        "Hastalık baskısı yüksek bölgelerde bitki boyu diz hizasına geldiğinde koruyucu ilaçlama yapın."
+      ]
+    }
+  ]
+}

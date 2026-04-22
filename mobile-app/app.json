@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Mısır-M-KDS",
+    "slug": "mobile-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "mobileapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "package": "com.canerceyhan.mobileapp"
+    },
+    "web": {
+      "output": "static"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-splash-screen",
+      "react-native-fast-tflite"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "9efdf074-edaa-44e0-b8d6-52560644cbbb"
+      }
+    },
+    "owner": "canerceyhan"
+  }
+}
